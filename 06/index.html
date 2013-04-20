@@ -36,13 +36,13 @@
 				.append("thead")
 				.append("tbody");
 
-			var titulos = ["Equipos", "logo" ];
+			var titulos = ["Equipos", "logo", "SparkBars" ];
 
 			table.selectAll("th")
 				.data(titulos)
 				.enter()
 				.append("th")
-				.style("width", "100px")
+				.style("width", "150px")
 				.text(function(titulos) { 
 					return titulos; 
 				});
@@ -72,16 +72,60 @@
 						return d.club.nombreCorto;
 					});
 				
+			//addSparkBars()	
+
+			var sparkBarsTd = trs.append("td")
+				.append("svg:svg")
+				.selectAll(".bar")
+			      .data(function(d){
+			      	return d.club.fechas;
+			      })
+			    .enter().
+			    append("rect")
+			      .attr("class", function(d) { console.log(scale(d)); return colors(scale(d)); })
+			      .attr("x", function(d, i) { return x(i) + (( gap / 19  ) * i); })
+			      .attr("y", function(d) { return y(scale(d)); })
+			      .attr("width", x(1))
+			      .attr("height", function(d) { return tall(scale(d)); });
+				
 
 		}
+		function scale(d) {
+			  
+			  var res = d.golesLocal - d.golesVisitante;
+			  if(d.jugado == "0")
+			  	return null;
 
+			  if(res > 0 )
+			  	return 1;
+			  if(res < 0)
+			  	return -1;
+			  return 0;
+			}
 
+			
+			var margin = {top: 0, right: 0, bottom: 0, left: 0},
+			    width = 150 - margin.left - margin.right,
+			    height = 20 - margin.top - margin.bottom;
+
+			var gap = width * 0.1;
+
+			var x = d3.scale.linear().domain([0, 20]).range([0, width - gap]);
+
+			var y = d3.scale.ordinal().domain([-1, 0, 1, null]).range([height/2, (height/2 - (height * 0.05)), 0, 0]);
+
+			var tall = d3.scale.ordinal().domain([-1, 0, 1, null]).range([height/2, height * 0.1, height/2, 0]);
+
+			var colors = d3.scale.ordinal().domain([-1, 0, 1, null]).range(["bar negative", "bar drawn", "bar positive", ""]);
+
+		
 	</script>
 
 </head>
 <body>
 
 	<div class="centered" id="principal" />
+  	<div id="graph" class="aGraph" style="position:absolute;top:0px;left:0; float:left; width:300px; height:50px;"></div>
 
 </body>
 
