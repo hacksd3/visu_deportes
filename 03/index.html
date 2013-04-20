@@ -1,0 +1,83 @@
+<html>
+<meta charset="utf-8">
+<title>Bar Chart with Negative Values</title>
+<style>
+
+.bar.positive {
+  fill: steelblue;
+}
+
+.bar.negative {
+  fill: brown;
+}
+
+.bar.drawn {
+  fill: lightgray;
+}
+
+</style>
+<body>
+
+  <div id="graph" class="aGraph" style="position:absolute;top:0px;left:0; float:left; width:300px; height:50px;"></div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+var margin = {top: 0, right: 0, bottom: 0, left: 0},
+    width = 300 - margin.left - margin.right,
+    height = 50 - margin.top - margin.bottom;
+
+var gap = width * 0.1;
+
+var x = d3.scale.linear().domain([0, 20]).range([0, width - gap]);
+
+var y = d3.scale.ordinal().domain([-1, 0, 1, null]).range([height/2, (height/2 - (height * 0.05)), 0, 0]);
+
+var tall = d3.scale.ordinal().domain([-1, 0, 1, null]).range([height/2, height * 0.1, height/2, 0]);
+
+var colors = d3.scale.ordinal().domain([-1, 0, 1, null]).range(["bar negative", "bar drawn", "bar positive", ""]);
+
+var graph = d3.select("#graph").append("svg:svg").attr("width", "100%").attr("height", "100%");
+
+var data = [{"value":1},
+{"value":1},
+{"value":1},
+{"value":-1},
+{"value":1},
+{"value":-1},
+{"value":0},
+{"value":1},
+{"value":0},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null}]
+
+
+  
+  graph.
+  selectAll(".bar")
+      .data(data)
+    .enter().
+    append("rect")
+      .attr("class", function(d) { return colors(d.value); })
+      .attr("x", function(d, i) { return x(i) + (( gap / 19  ) * i); })
+      .attr("y", function(d) { return y(d.value); })
+      .attr("width", x(1))
+      .attr("height", function(d) { return tall(d.value); });
+
+function type(d) {
+  d.value = +d.value;
+  return d;
+}
+
+
+</script>
+</body>
+</html>

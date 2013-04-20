@@ -1,0 +1,59 @@
+[
+   {
+      "club":
+      {
+         "nombreLargo":"All Boys",
+         "nombreCorto":"ALL",
+         "escudo":"../data/images/afa.jpg",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+     }
+   },
+   {"club":
+      {
+         "nombreLargo":"Argentinos",
+         "nombreCorto":"ARG",
+         "escudo":"../data/images/afa.jpg",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   }
+]

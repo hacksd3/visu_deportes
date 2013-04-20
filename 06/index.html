@@ -1,0 +1,90 @@
+<html>
+<head >
+    <title>Ej2. Tabla de resultados</title>
+    <meta charset="utf-8">
+	<script src="../d3/d3.v3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/common-style.css">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+	<script type="text/javascript">
+
+		//Width and height
+		var w = 800;
+		var h = 600;
+
+		var dataset;
+
+		
+		d3.json("../data/datos.json", function(json) {
+        	console.log(json);
+
+        	dataset = json;
+
+        	dataset.sort(function(a, b) {
+			   return d3.ascending(a.club.nombreLargo, b.club.nombreLargo);
+			});
+
+        	visualize()
+
+		});
+
+
+
+		function visualize() {
+			var table = d3.select("#principal")
+				.append("table")
+				.attr("class", "table table-condensed table-striped")
+				.append("thead")
+				.append("tbody");
+
+			var titulos = ["Equipos", "logo" ];
+
+			table.selectAll("th")
+				.data(titulos)
+				.enter()
+				.append("th")
+				.style("width", "100px")
+				.text(function(titulos) { 
+					return titulos; 
+				});
+
+			var trs = table.selectAll("tr")
+				.data(dataset).enter()
+				.append("tr");
+				
+
+			var equipoTd = trs.append("td")
+				.text(function(d) {
+					return d.club.nombreLargo;
+				});
+			
+
+			var logoTd = trs.append("td")
+				.append("p")
+				.attr("align", "center")
+				.append("img")
+					.attr("src", function(d) {
+						return d.club.escudo;
+					})
+					.attr("width", "23px")
+					.attr("height", "10px")
+					.attr("padding", "0px 0px")
+					.attr("alt", function(d){
+						return d.club.nombreCorto;
+					});
+				
+
+		}
+
+
+	</script>
+
+</head>
+<body>
+
+	<div class="centered" id="principal" />
+
+</body>
+
+
+
+</html>
