@@ -1,10 +1,9 @@
 [
-   {
-      "club":
+   {"club":
       {
          "nombreLargo":"All Boys",
-         "nombreCorto":"ALL",
-         "escudo":"../data/images/afa.jpg",
+         "nombreCorto":"ALL", "posicion": 11,
+         "escudo":"../data/images/all.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
             {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
@@ -26,13 +25,13 @@
             {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
             {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
          ]
-     }
+      }
    },
    {"club":
       {
          "nombreLargo":"Argentinos",
-         "nombreCorto":"ARG",
-         "escudo":"../data/images/afa.jpg",
+         "nombreCorto":"ARG", "posicion": 19,
+         "escudo":"../data/images/arg.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
             {               "jugado":"1",               "golesLocal":0,               "golesVisitante":2            },
@@ -43,6 +42,510 @@
             {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
             {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
             {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Arsenal",
+         "nombreCorto":"ARS", "posicion": 4,
+         "escudo":"../data/images/ars.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Belgrano",
+         "nombreCorto":"BEL", "posicion": 9,
+         "escudo":"../data/images/bel.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Boca",
+         "nombreCorto":"BOC", "posicion": 17,
+         "escudo":"../data/images/boc.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":6            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Colón",
+         "nombreCorto":"CLN", "posicion": 10,
+         "escudo":"../data/images/cln.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":4            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Estudiantes",
+         "nombreCorto":"EST", "posicion": 20,
+         "escudo":"../data/images/est.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":4            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Godoy Cruz",
+         "nombreCorto":"GOD", "posicion": 5,
+         "escudo":"../data/images/god.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Independiente",
+         "nombreCorto":"IND", "posicion": 16,
+         "escudo":"../data/images/ind.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Lanús",
+         "nombreCorto":"LAN", "posicion": 2,
+         "escudo":"../data/images/lan.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":4,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Newell's",
+         "nombreCorto":"NEW", "posicion": 1,
+         "escudo":"../data/images/new.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":4,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":1            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Quilmes",
+         "nombreCorto":"QUI", "posicion": 8,
+         "escudo":"../data/images/qui.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Racing",
+         "nombreCorto":"RAC", "posicion": 6,
+         "escudo":"../data/images/rac.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":4,               "golesVisitante":1            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Rafaela",
+         "nombreCorto":"RAF", "posicion": 7,
+         "escudo":"../data/images/raf.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"River",
+         "nombreCorto":"RIV", "posicion": 3,
+         "escudo":"../data/images/riv.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"San Lorenzo",
+         "nombreCorto":"SLO", "posicion": 13,
+         "escudo":"../data/images/slo.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":4            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"San Martín SJ",
+         "nombreCorto":"SMS", "posicion": 18,
+         "escudo":"../data/images/sms.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":6,               "golesVisitante":1            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Tigre",
+         "nombreCorto":"TIG", "posicion": 14,
+         "escudo":"../data/images/tig.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":3            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Unión",
+         "nombreCorto":"UNI", "posicion": 12,
+         "escudo":"../data/images/uni.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":3            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":2,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            }
+         ]
+      }
+   },
+   {"club":
+      {
+         "nombreLargo":"Vélez",
+         "nombreCorto":"VEL", "posicion": 15,
+         "escudo":"../data/images/vel.png",
+         "fechas":[
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":3,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
+            {               "jugado":"1",               "golesLocal":1,               "golesVisitante":2            },
             {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
             {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },
             {               "jugado":"0",               "golesLocal":0,               "golesVisitante":0            },

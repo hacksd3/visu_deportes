@@ -1,41 +1,68 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <head>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="http://omnipotent.net/jquery.sparkline/2.1.1/jquery.sparkline.min.js"></script>
 
-    <script type="text/javascript">
-    $(function() {
-        /** This code runs when everything has been loaded on the page */
-        /* Inline sparklines take their values from the contents of the tag */
-        $('.inlinesparkline').sparkline(); 
+  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 
-        /* Sparklines can also take their values from the first argument 
-        passed to the sparkline() function */
-        var myvalues = [10,8,5,7,4,4,1];
-        $('.dynamicsparkline').sparkline(myvalues);
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="http://omnipotent.net/jquery.sparkline/2.1.1/jquery.sparkline.min.js"></script>
 
-        /* The second argument gives options such as chart type */
-        $('.dynamicbar').sparkline(myvalues, {type: 'bar', barColor: 'green'} );
-
-        /* Use 'html' instead of an array of values to pass options 
-        to a sparkline with data in the tag */
-        $('.inlinebar').sparkline('html', {type: 'bar', barColor: 'red'} );
-    });
-    </script>
+<script type="text/javascript">
+  $(function() {
+    $('.pos1').sparkline('html', { type: 'tristate' });
+    $('.pos2').sparkline('html', { type: 'tristate' });
+    $('.pos3').sparkline('html', { type: 'tristate' });
+    $('.pos4').sparkline('html', { type: 'tristate' });
+    $('.pos5').sparkline('html', { type: 'tristate' });
+    $('.pos6').sparkline('html', { type: 'tristate' });
+    $('.pos7').sparkline('html', { type: 'tristate' });
+    $('.pos8').sparkline('html', { type: 'tristate' });
+    $('.pos9').sparkline('html', { type: 'tristate' });
+    $('.pos10').sparkline('html', { type: 'tristate' });
+    $('.pos11').sparkline('html', { type: 'tristate' });
+    $('.pos12').sparkline('html', { type: 'tristate' });
+    $('.pos13').sparkline('html', { type: 'tristate' });
+    $('.pos14').sparkline('html', { type: 'tristate' });
+    $('.pos15').sparkline('html', { type: 'tristate' });
+    $('.pos16').sparkline('html', { type: 'tristate' });
+    $('.pos17').sparkline('html', { type: 'tristate' });
+    $('.pos18').sparkline('html', { type: 'tristate' });
+    $('.pos19').sparkline('html', { type: 'tristate' });
+    $('.pos20').sparkline('html', { type: 'tristate' });
+  });
+</script>
 </head>
 <body>
 
-<p>
-Inline Sparkline: <span class="inlinesparkline">1,4,4,7,5,9,10</span>.
-</p>
-<p>
-Sparkline with dynamic data: <span class="dynamicsparkline">Loading..</span>
-</p>
-<p>
-Bar chart with dynamic data: <span class="dynamicbar">Loading..</span>
-</p>
-<p>
-Bar chart with inline data: <span class="inlinebar">1,3,4,5,3,5</span>
-</p>
+<table class="table table-hover table-condensed">
+
+<tr>
+ <td></td>
+ <td><b>equipo</b></td>
+ <td><b>historia</b></td>
+</tr>
+
+<tr><td>1</td><td>Newell's</td><td><span class="pos1">1,-1,0,1,1,1,1,-1,1</span></td></tr>
+<tr><td>2</td><td>Lanús</td><td><span class="pos2">1,1,1,0,1,1,0,0,1</span></td></tr>
+<tr><td>3</td><td>River</td><td><span class="pos3">1,1,1,-1,1,-1,0,1,0</span></td></tr>
+<tr><td>4</td><td>Arsenal</td><td><span class="pos4">0,0,1,1,-1,1,0,1,0</span></td></tr>
+<tr><td>5</td><td>Godoy Cruz</td><td><span class="pos5">0,1,1,0,1,-1,1,0,0</span></td></tr>
+<tr><td>6</td><td>Racing</td><td><span class="pos6">-1,1,-1,0,1,0,1,-1,1</span></td></tr>
+<tr><td>7</td><td>Rafaela</td><td><span class="pos7">1,0,-1,0,0,-1,1,1,0</span></td></tr>
+<tr><td>8</td><td>Quilmes</td><td><span class="pos8">-1,1,1,0,1,0,0,0</span></td></tr>
+<tr><td>9</td><td>Belgrano</td><td><span class="pos9">-1,0,1,-1,1,0,0,0</span></td></tr>
+<tr><td>10</td><td>Colón</td><td><span class="pos10">-1,0,-1,0,-1,-1,1,1,1</span></td></tr>
+<tr><td>11</td><td>All Boys</td><td><span class="pos11">0,-1,1,-1,0,1,-1,1,-1</span></td></tr>
+<tr><td>12</td><td>Unión</td><td><span class="pos12">0,-1,-1,1,0,1,-1,0,0</span></td></tr>
+<tr><td>13</td><td>San Lorenzo</td><td><span class="pos13">0,0,0,1,-1,1,-1,0,-1</span></td></tr>
+<tr><td>14</td><td>Tigre</td><td><span class="pos14">1,0,-1,1,1,-1,-1,-1,-1</span></td></tr>
+<tr><td>15</td><td>Vélez</td><td><span class="pos15">1,-1,-1,1,-1,0,0,0,-1</span></td></tr>
+<tr><td>16</td><td>Independiente</td><td><span class="pos16">-1,1,1,-1,-1,0,0,-1,0</span></td></tr>
+<tr><td>17</td><td>Boca</td><td><span class="pos17">1,0,-1,-1,0,0,0,0,-1</span></td></tr>
+<tr><td>18</td><td>San Martín SJ</td><td><span class="pos18">0,0,0,-1,-1,-1,-1,0,1</span></td></tr>
+<tr><td>19</td><td>Argentinos</td><td><span class="pos19">-1,-1,-1,0,-1,0,1,0,0</span></td></tr>
+<tr><td>20</td><td>Estudiantes</td><td><span class="pos20">-1,-1,0,0,-1,0,-1,-1,0</span></td></tr>
+
+</table>
+
 </body>
 </html>

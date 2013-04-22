@@ -1,0 +1,216 @@
+<html>
+<meta charset="utf-8">
+<title></title>
+<style>
+
+body {
+  margin-top: 250px;
+}
+
+.bar.positive {
+  fill: steelblue;
+}
+
+.bar.negative {
+  fill: brown;
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;         
+  background-color: rgba(0,0,0,.5);
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  margin: 5px;
+  display: block;
+  z-index: 1000;
+    -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -khtml-border-radius: 6px;
+   font-family: "Helvetica", Arial, _sans;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+ }
+
+.tooltip-content {
+    pointer-events: none;         
+  position: relative;
+background-color: rgba(0,0,0,.5);
+  width: 50px;
+  height: 35px;
+  margin: 5px;
+  padding-top: 10px;
+  display: block;
+  z-index: 1000;
+    -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -khtml-border-radius: 6px;
+}
+
+
+.tooltip-content:after {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.tooltip-content:after {
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000000;
+  border-top-color: rgba(0,0,0,.5);
+  border-width: 5px;
+  left: 50%;
+  margin-left: -5px;
+}
+
+
+
+.new {
+  left: 90px;
+}
+
+.circle {
+  display: block;
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -khtml-border-radius: 10px;
+  font-family: "Helvetica", Arial, _sans;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 19px;
+}
+
+.gano {
+  background-color: chartreuse;
+}
+
+.perdio {
+   background-color: crimson;
+}
+
+.empato {
+  background-color: #333;
+}
+
+#graph {position:absolute;top:250px;left:15; float:left; width:300px; height:50px;
+z-index: 100}
+
+</style>
+<body>
+
+
+
+  <div id="graph"></div>
+
+
+<!--   <div class="tooltip">
+      <div class="tooltip-content">
+
+      <div class="circle empato">1</div>
+    
+      </div>
+  </div> -->
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+/*
+
+width y height deben tomar valores desde los atributos css de #graph
+
+*/
+
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
+
+var margin = {top: 0, right: 0, bottom: 0, left: 0},
+    width = 300 - margin.left - margin.right,
+    height = 50 - margin.top - margin.bottom;
+
+var gap = width * 0.1;
+
+var x = d3.scale.linear().domain([0, 20]).range([0, width - gap]);
+
+var y = d3.scale.ordinal().domain([-1, 0, 1, null]).range([height/2, (height/2 - (height * 0.05)), 0, 0]);
+
+var tall = d3.scale.ordinal().domain([-1, 0, 1, null]).range([height/2, height * 0.1, height/2, 0]);
+
+var colors = d3.scale.ordinal().domain([-1, 0, 1, null]).range(["bar negative", "bar drawn", "bar positive", ""]);
+
+var colorsCircle = d3.scale.ordinal().domain([-1, 0, 1, null]).range(["perdio", "empato", "gano", ""]);
+
+
+var graph = d3.select("#graph").append("svg:svg").attr("width", "100%").attr("height", "100%");
+
+var data = [{"value":1},
+{"value":1},
+{"value":1},
+{"value":-1},
+{"value":1},
+{"value":-1},
+{"value":0},
+{"value":1},
+{"value":0},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null},
+{"value":null}]
+
+
+  
+  graph.
+  selectAll(".bar")
+      .data(data)
+    .enter().
+    append("rect")
+      .attr("class", function(d) { return colors(d.value); })
+      .attr("x", function(d, i) { return x(i) + (( gap / 19  ) * i); })
+      .attr("y", function(d) { return y(d.value); })
+      .attr("width", x(1))
+      .attr("height", function(d) { return tall(d.value); })
+      .on("mouseover", function(d) {      
+            div.transition()        
+                .duration(200)      
+                .style("opacity", .9);      
+            div .html(d.value)
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");  
+
+            })
+       .on("mouseout", function(d) {       
+         div.transition()        
+             .duration(200)      
+             .style("opacity", 0);   
+     });
+
+function type(d) {
+  d.value = +d.value;
+  return d;
+}
+
+
+</script>
+</body>
+</html>
