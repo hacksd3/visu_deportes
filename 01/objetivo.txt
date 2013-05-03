@@ -1,0 +1,1 @@
+D3.js es una librería que permite manipular los elementos de una pagina web de manera dinamica. Utiliza un vector de datos y con estos datos se generan habitualmente gráficos en formato SVG. Pero en este primer ejemplo, vamos a mostrar como generar una tabla HTML a partir de un vector con los nombres de los equipos.
