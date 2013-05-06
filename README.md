@@ -1,4 +1,4 @@
-Visualización del campeonato de futbol en Argentina
+<h1>Visualización del campeonato de futbol en Argentina</h1>
 
 El proyecto es construido en pasos iterativos en los cuales vamos mejorando las versiones previas.
 
@@ -14,3 +14,24 @@ Nicolas Bissantz en http://www.bissantz.com/sparklines/ implementó los sparklin
 El producto final, sera una tabla de posiciones similar a esta:
 
 <img src="http://hacksd3.github.io/visu_deportes/img/tabla_con_sparklines.png" alt="tabla de posiciones con sparklines">
+
+Tutorial:
+
+01 - generando una tabla HTML con d3.js
+http://hacksd3.github.io/visu_deportes/01/
+
+02 - ...
+http://hacksd3.github.io/visu_deportes/02/
+
+03 - ...
+http://hacksd3.github.io/visu_deportes/03/
+
+04 - ...
+http://hacksd3.github.io/visu_deportes/04/
+
+05 - ...
+http://hacksd3.github.io/visu_deportes/05/
+
+06 - ...
+http://hacksd3.github.io/visu_deportes/06/
+
