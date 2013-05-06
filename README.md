@@ -11,4 +11,6 @@ Estos gráficos fueron popularizados por Edward Tufte, cuando adelantó por la w
 
 Nicolas Bissantz en http://www.bissantz.com/sparklines/ implementó los sparklines, como una tipografia TTF, luego unos asistentes para usar esta tipografia desde el Word o Excel. Mas adelante, Microsoft implementa estos gráficos en el excel 2010.
 
-El producto final, sera una tabla de posiciones similar a esta: https://github.com/hacksd3/visu_deportes/img/tabla_con_sparklines.png
+El producto final, sera una tabla de posiciones similar a esta:
+
+<img src="http://hacksd3.github.io/visu_deportes/img/tabla_con_sparklines.png" alt="tabla de posiciones con sparklines">
