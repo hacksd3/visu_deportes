@@ -19,7 +19,9 @@
 		        if (error) 
 		        return console.warn(error);
 		        data = documentFragment;
-		        console.log(documentFragment.innerHTML);
+		        var table = documentFragment.getElementById('posiciones');
+		        console.log(table);
+		        
 		        document.body.appendChild(documentFragment);
 		      });
 		
