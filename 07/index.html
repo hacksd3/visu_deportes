@@ -1,0 +1,38 @@
+<html>
+<head >
+    <title>Ej7. Parseando tabla de resultados</title>
+    <meta charset="utf-8">
+  <script src="../d3/d3.v3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/common-style.css">
+	<script type="text/javascript">
+
+		//Width and height
+		var w = 800;
+		var h = 600;
+
+		function visualize() {
+      
+      var data; // a global
+
+      d3.html("http://espndeportes.espn.go.com/futbol/posiciones/_/liga/arg.1/primera-division-de-argentina", function(error, json) {
+        if (error) 
+        return console.warn(error);
+        data = json;
+        console.log(data);
+      });
+
+		}
+
+
+	</script>
+
+</head>
+<body onload="visualize()">
+
+	<div class="centered" id="principal" />
+
+</body>
+
+
+
+</html>
