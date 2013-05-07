@@ -12,15 +12,16 @@
 
 		function visualize() {
       
-      var data; // a global
-
-      d3.html("http://espndeportes.espn.go.com/futbol/posiciones/_/liga/arg.1/primera-division-de-argentina", function(error, json) {
-        if (error) 
-        return console.warn(error);
-        data = json;
-        console.log(data);
-      });
-
+		      var data; // a global
+		
+		      d3.html("http://espndeportes.espn.go.com/futbol/posiciones/_/liga/arg.1/primera-division-de-argentina").header("X-Requested-With", "XMLHttpRequest").get(function(error, data) { 
+		      	// Process data 
+		        if (error) 
+		        return console.warn(error);
+		        data = json;
+		        console.log(data);
+		      });
+		
 		}
 
 
