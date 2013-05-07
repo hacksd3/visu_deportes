@@ -14,12 +14,13 @@
       
 		      var data; // a global
 		      
-		      d3.html("tabla-posiciones.html", function(error, json) { 
+		      d3.html("tabla-posiciones.html", function(error, documentFragment) { 
 		      	// Process data 
 		        if (error) 
 		        return console.warn(error);
-		        data = json;
+		        data = documentFragment;
 		        console.log(data);
+		        document.body.appendChild(documentFragment);
 		      });
 		
 		}
