@@ -19,7 +19,7 @@
 		        if (error) 
 		        return console.warn(error);
 		        data = documentFragment;
-		        var table = documentFragment.getElementById('posiciones');
+		        var table = documentFragment.getElementsByTagName("posiciones")[0];
 		        console.log(table);
 		        
 		        document.body.appendChild(documentFragment);
