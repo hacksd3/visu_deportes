@@ -21,7 +21,9 @@
 		        data = documentFragment;
 		        //var table = documentFragment.getElementsByTagName("posiciones")[0];
 		        var table = documentFragment.querySelector('#posiciones');
-		        console.log(documentFragment, table);
+		        
+		        
+		        console.log(documentFragment, table, table.rows, table.rows.length);
 		        
 		        document.body.appendChild(documentFragment);
 		      });
