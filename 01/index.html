@@ -5,32 +5,31 @@
 	<script src="../d3/d3.v3.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/common-style.css">
 	<script type="text/javascript">
-
 		//Width and height
 		var w = 800;
 		var h = 600;
 
 		var dataset = [
-			{"equipo":"Newell's", "logo": "http://www.blogsatsaid.com.ar/wp-content/uploads/afa.jpg"},
-			{"equipo":"Lanús", "logo":"10"},
-			{"equipo":"River", "logo": "10"}, 
-			{"equipo":"Arsenal", "logo": "10"},
-			{"equipo":"Godoy Cruz", "logo": "10"},
-			{"equipo":"Racing", "logo": "10"},
-			{"equipo":"Atl. Rafaela", "logo": "10"},
-			{"equipo":"Quilmes", "logo": "10"},
-			{"equipo":"Belgrano", "logo": "10"},
-			{"equipo":"Colón", "logo":"10"},
-			{"equipo":"All Boys", "logo": "10"},
-			{"equipo":"Unión", "logo": "10"}, 
-			{"equipo":"San Lorenzo", "logo": "10"},
-			{"equipo":"Tigre", "logo": "10"}, 
-			{"equipo":"Vélez Sarsfield", "logo": "10"}, 
-			{"equipo":"Independiente", "logo": "10"}, 
-			{"equipo":"Boca", "logo": "10"}, 
-			{"equipo":"San Martín (SJ)", "logo": "10"}, 
-			{"equipo":"Argentinos", "logo": "10"}, 
-			{"equipo":"Estudiantes", "logo": "10"}
+			{"equipo":"Newell's", "logo": "../data/images/new.png"},
+			{"equipo":"Lanús", "logo":"../data/images/lan.png"},
+			{"equipo":"River", "logo": "../data/images/riv.png"}, 
+			{"equipo":"Arsenal", "logo": "../data/images/ars.png"},
+			{"equipo":"Godoy Cruz", "logo": "../data/images/god.png"},
+			{"equipo":"Racing", "logo": "../data/images/rac.png"},
+			{"equipo":"Atl. Rafaela", "logo": "../data/images/raf.png"},
+			{"equipo":"Quilmes", "logo": "../data/images/qui.png"},
+			{"equipo":"Belgrano", "logo": "../data/images/bel.png"},
+			{"equipo":"Colón", "logo":"../data/images/cln.png"},
+			{"equipo":"All Boys", "logo": "../data/images/all.png"},
+			{"equipo":"Unión", "logo": "../data/images/uni.png"}, 
+			{"equipo":"San Lorenzo", "logo": "../data/images/slo.png"},
+			{"equipo":"Tigre", "logo": "../data/images/tig.png"}, 
+			{"equipo":"Vélez Sarsfield", "logo": "../data/images/vel.png"}, 
+			{"equipo":"Independiente", "logo": "../data/images/ind.png"}, 
+			{"equipo":"Boca", "logo": "../data/images/boc.png"}, 
+			{"equipo":"San Martín (SJ)", "logo": "../data/images/sms.png"}, 
+			{"equipo":"Argentinos", "logo": "../data/images/arg.png"}, 
+			{"equipo":"Estudiantes", "logo": "../data/images/est.png"}
 		];
 
 		var equipos_ordenados = dataset.sort(function(a, b) {
@@ -64,8 +63,7 @@
 			var equipoTd = trs.append("td")
 				.text(function(d) {
 					return d.equipo;
-				});
-			
+			});
 
 			var logoTd = trs.append("td")
 				.append("p")
@@ -79,20 +77,117 @@
 					.attr("alt", function(d){
 						return d.name;
 					});
-				
-
 		}
-
-
 	</script>
-
 </head>
+
+<h2>Cap&iacute;tulo #1</h2>
+
+Este primer capitulo del tutorial explicamos como armar la tabla con los equipos, en los
+sucesivos cap&iacute;tulos se explicar&aacute;n conceptos m&aacute;s interesantes.<br />
+<br />
+
+Aca seteamos la p&aacute;gina:
+
+
+<pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:800px;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;"> &lt;html&gt;  
+ &lt;head &gt;  
+   &lt;title&gt;Ej2. Tabla de resultados&lt;/title&gt;  
+   &lt;meta charset="utf-8"&gt;  
+      &lt;script src="../d3/d3.v3.min.js"&gt;&lt;/script&gt;  
+      &lt;link rel="stylesheet" type="text/css" href="../css/common-style.css"&gt;  
+</code></pre>
+
+
+Ac&aacute; preparamos los datos:
+
+<pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:800px;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;">      &lt;script type="text/javascript"&gt;  
+           //Width and height  
+           var w = 800;  
+           var h = 600;  
+		var dataset = [
+			{"equipo":"Newell's", "logo": "../data/images/new.png"},
+			{"equipo":"Lanús", "logo":"../data/images/lan.png"},
+			{"equipo":"River", "logo": "../data/images/riv.png"}, 
+			{"equipo":"Arsenal", "logo": "../data/images/ars.png"},
+			{"equipo":"Godoy Cruz", "logo": "../data/images/god.png"},
+			{"equipo":"Racing", "logo": "../data/images/rac.png"},
+			{"equipo":"Atl. Rafaela", "logo": "../data/images/raf.png"},
+			{"equipo":"Quilmes", "logo": "../data/images/qui.png"},
+			{"equipo":"Belgrano", "logo": "../data/images/bel.png"},
+			{"equipo":"Colón", "logo":"../data/images/cln.png"},
+			{"equipo":"All Boys", "logo": "../data/images/all.png"},
+			{"equipo":"Unión", "logo": "../data/images/uni.png"}, 
+			{"equipo":"San Lorenzo", "logo": "../data/images/slo.png"},
+			{"equipo":"Tigre", "logo": "../data/images/tig.png"}, 
+			{"equipo":"Vélez Sarsfield", "logo": "../data/images/vel.png"}, 
+			{"equipo":"Independiente", "logo": "../data/images/ind.png"}, 
+			{"equipo":"Boca", "logo": "../data/images/boc.png"}, 
+			{"equipo":"San Martín (SJ)", "logo": "../data/images/sms.png"}, 
+			{"equipo":"Argentinos", "logo": "../data/images/arg.png"}, 
+			{"equipo":"Estudiantes", "logo": "../data/images/est.png"}
+		];
+</code></pre>
+
+Ac&aacute; preparamos la tabla:
+<pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:800px;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;">           var equipos_ordenados = dataset.sort(function(a, b) {  
+             return d3.ascending(a.equipo, b.equipo);  
+           });  
+           function visualize() {  
+                var table = d3.select("#principal")  
+                     .append("table")  
+                     .style("border-collapse", "collapse")  
+                  .style("border", "2px black solid")  
+                     .append("thead")  
+                     .append("tbody");  
+                var titulos = ["Equipos", "logo" ];  
+                table.selectAll("th")  
+                     .data(titulos)  
+                     .enter()  
+                     .append("th")  
+                     .style("width", "100px")  
+                     .text(function(titulos) {   
+                          return titulos;   
+                     });  
+                var trs = table.selectAll("tr")  
+                     .data(dataset).enter()  
+                     .append("tr");  
+                var equipoTd = trs.append("td")  
+                     .text(function(d) {  
+                          return d.equipo;  
+                });  
+                var logoTd = trs.append("td")  
+                     .append("p")  
+                     .attr("align", "center")  
+                     .append("img")  
+                          .attr("src", function(d) {  
+                               return d.logo;  
+                          })  
+                          .attr("width", "20px")  
+                          .attr("width", "20px")  
+                          .attr("alt", function(d){  
+                               return d.name;  
+                          });  
+           }  
+      &lt;/script&gt;
+      &lt;/head&gt;
+</code></pre>
+
+Aqui se define el lugar donde va a ser generada la tabla:
+
+<pre  style="font-family:arial;font-size:12px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;"> &lt;body onload="visualize()"&gt;  
+      &lt;div class="centered" id="principal" /&gt;  
+ &lt;/body&gt;  
+ &lt;/html&gt;  
+</code></pre>
+
+Y aqui esta la tabla, a&uacute;n falta el dise&ntilde;o (utilizando CSS) que ir&aacute;n apareciendo
+en los siguientes cap&iacute;tulos del tutorial.
+
+
 <body onload="visualize()">
 
 	<div class="centered" id="principal" />
 
 </body>
-
-
-
 </html>
