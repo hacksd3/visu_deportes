@@ -2,7 +2,7 @@
    {"club":
       {
          "nombreLargo":"All Boys",
-         "nombreCorto":"ALL", "posicion": 11,
+         "nombreCorto":"ALL", "posicion": 13,
          "escudo":"../data/images/all.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
@@ -30,7 +30,7 @@
    {"club":
       {
          "nombreLargo":"Argentinos",
-         "nombreCorto":"ARG", "posicion": 19,
+         "nombreCorto":"ARG", "posicion": 20,
          "escudo":"../data/images/arg.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":0,               "golesVisitante":1            },
@@ -58,7 +58,7 @@
    {"club":
       {
          "nombreLargo":"Arsenal",
-         "nombreCorto":"ARS", "posicion": 4,
+         "nombreCorto":"ARS", "posicion": 6,
          "escudo":"../data/images/ars.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
@@ -114,7 +114,7 @@
    {"club":
       {
          "nombreLargo":"Boca",
-         "nombreCorto":"BOC", "posicion": 17,
+         "nombreCorto":"BOC", "posicion": 19,
          "escudo":"../data/images/boc.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":3,               "golesVisitante":2            },
@@ -141,8 +141,8 @@
    },
    {"club":
       {
-         "nombreLargo":"Colón",
-         "nombreCorto":"CLN", "posicion": 10,
+         "nombreLargo":"Colon",
+         "nombreCorto":"CLN", "posicion": 14,
          "escudo":"../data/images/cln.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":0,               "golesVisitante":4            },
@@ -170,7 +170,7 @@
    {"club":
       {
          "nombreLargo":"Estudiantes",
-         "nombreCorto":"EST", "posicion": 20,
+         "nombreCorto":"EST", "posicion": 16,
          "escudo":"../data/images/est.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":1,               "golesVisitante":3            },
@@ -226,7 +226,7 @@
    {"club":
       {
          "nombreLargo":"Independiente",
-         "nombreCorto":"IND", "posicion": 16,
+         "nombreCorto":"IND", "posicion": 10,
          "escudo":"../data/images/ind.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":1,               "golesVisitante":3            },
@@ -253,7 +253,7 @@
    },
    {"club":
       {
-         "nombreLargo":"Lanús",
+         "nombreLargo":"Lanus",
          "nombreCorto":"LAN", "posicion": 2,
          "escudo":"../data/images/lan.png",
          "fechas":[
@@ -310,7 +310,7 @@
    {"club":
       {
          "nombreLargo":"Quilmes",
-         "nombreCorto":"QUI", "posicion": 8,
+         "nombreCorto":"QUI", "posicion": 7,
          "escudo":"../data/images/qui.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":2,               "golesVisitante":3            },
@@ -338,7 +338,7 @@
    {"club":
       {
          "nombreLargo":"Racing",
-         "nombreCorto":"RAC", "posicion": 6,
+         "nombreCorto":"RAC", "posicion": 12,
          "escudo":"../data/images/rac.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":0,               "golesVisitante":3            },
@@ -366,7 +366,7 @@
    {"club":
       {
          "nombreLargo":"Rafaela",
-         "nombreCorto":"RAF", "posicion": 7,
+         "nombreCorto":"RAF", "posicion": 8,
          "escudo":"../data/images/raf.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":3,               "golesVisitante":0            },
@@ -422,7 +422,7 @@
    {"club":
       {
          "nombreLargo":"San Lorenzo",
-         "nombreCorto":"SLO", "posicion": 13,
+         "nombreCorto":"SLO", "posicion": 4,
          "escudo":"../data/images/slo.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
@@ -449,8 +449,8 @@
    },
    {"club":
       {
-         "nombreLargo":"San Martín SJ",
-         "nombreCorto":"SMS", "posicion": 18,
+         "nombreLargo":"San Martin SJ",
+         "nombreCorto":"SMS", "posicion": 11,
          "escudo":"../data/images/sms.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":0,               "golesVisitante":0            },
@@ -478,7 +478,7 @@
    {"club":
       {
          "nombreLargo":"Tigre",
-         "nombreCorto":"TIG", "posicion": 14,
+         "nombreCorto":"TIG", "posicion": 15,
          "escudo":"../data/images/tig.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":3,               "golesVisitante":1            },
@@ -505,8 +505,8 @@
    },
    {"club":
       {
-         "nombreLargo":"Unión",
-         "nombreCorto":"UNI", "posicion": 12,
+         "nombreLargo":"Union",
+         "nombreCorto":"UNI", "posicion": 17,
          "escudo":"../data/images/uni.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":1,               "golesVisitante":1            },
@@ -533,8 +533,8 @@
    },
    {"club":
       {
-         "nombreLargo":"Vélez",
-         "nombreCorto":"VEL", "posicion": 15,
+         "nombreLargo":"Velez",
+         "nombreCorto":"VEL", "posicion": 18,
          "escudo":"../data/images/vel.png",
          "fechas":[
             {               "jugado":"1",               "golesLocal":1,               "golesVisitante":0            },
